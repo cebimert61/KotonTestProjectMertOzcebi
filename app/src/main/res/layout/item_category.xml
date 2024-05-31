@@ -1,0 +1,22 @@
+<!-- item_category.xml -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <!-- Data Binding ile bağlanacak değişkenler buraya -->
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/textViewCategoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+</layout>
